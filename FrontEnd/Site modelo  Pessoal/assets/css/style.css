@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgPrimary {
+    background: #F2D5C4
+}
+
+.bgSecondary {
+    background: #FEF6F0
+}
+
+.bgThyrd {
+    background: #FFFBF7;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* alinha na vertical*/
+    justify-content: space-between;
+    /* alinha na horizontal*/
+    height: 60px;
+    padding: 0 45px;
+}
+
+nav h3 {
+    font-size: 2rem;
+    /* 32px */
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.imgFundo {
+    background-image: url("../img/background-image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* alinha na horizontal */
+    justify-content: space-between;
+    /* alinha na vertical por causa do flex direction*/
+    height: 400px;
+    width: 25%;
+    padding-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.details input {
+    width: 80%;
+    height: 40px;
+    padding: 0 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.details input:focus {
+    outline: none;
+}
+
+.details button {
+    width: 60%;
+    height: 60px;
+    background-color: #463232;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.empresas {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 0;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.produtoUnico {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#comprar {
+    width: 30%;
+    height: 50px;
+    background-color: #463232;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+#detalhes {
+    width: 30%;
+    height: 50px;
+    background-color: #FFF;
+    color: #463232;
+    font-size: 1.3rem;
+    border: 1px solid#463232;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.produtos1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.produtos2 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.produtoUnico2 {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 20%;
+}
+
+#adicionar {
+    width: 30%;
+    height: 50px;
+    background-color: #FFF;
+    color: #463232;
+    font-size: 1.3rem;
+    border: 1px solid#463232;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer1 {
+    text-align: center;
+}
